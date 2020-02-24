@@ -1,0 +1,102 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-02-24T13:06:34.707Z",
+        "line": 10,
+        "name": "",
+        "description": "",
+        "id": "to-register-to-the-testme-app;;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 38160189800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User Enters the UserName",
+            "match": {
+              "location": "CaseStudy1.user_Enters_the_UserName()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 16026498900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "enters \"ananaa\", \"Anantha\", \"padmanabha\" , \"ananth12\" , \"ananth12\"  , \"an@gmail.com\" , \"8217353049\" , \"21/04/2018\" , \"chennai\"  ,  \"blue\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ananaa\"",
+                  "offset": 7
+                },
+                {
+                  "val": "\"Anantha\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"padmanabha\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"ananth12\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"ananth12\"",
+                  "offset": 56
+                },
+                {
+                  "val": "\"an@gmail.com\"",
+                  "offset": 70
+                },
+                {
+                  "val": "\"8217353049\"",
+                  "offset": 87
+                },
+                {
+                  "val": "\"21/04/2018\"",
+                  "offset": 102
+                },
+                {
+                  "val": "\"chennai\"",
+                  "offset": 117
+                },
+                {
+                  "val": "\"blue\"",
+                  "offset": 131
+                }
+              ],
+              "location": "CaseStudy1.enters(String,String,String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 33000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user navigates to login page",
+            "match": {
+              "location": "CaseStudy1.user_navigates_to_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To register to the testme app",
+    "description": "",
+    "id": "to-register-to-the-testme-app",
+    "keyword": "Feature",
+    "uri": "classpath:org/test/CaseStudy1.feature",
+    "tags": []
+  }
+]
